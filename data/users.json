@@ -1,0 +1,124 @@
+{
+    "users": {
+        "procurements": [
+            {
+                "id": 1,
+                "name": "AB_procurement1",
+                "displayName": "Alpha Bravo Procurement 1",
+                "role": "procurement",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "procurement/create-po"                
+            },
+            {
+                "id": 2,
+                "name": "AB_procurement2",
+                "displayName": "Alpha Bravo Procurement 2",
+                "role": "procurement",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "procurement/create-po"                 
+            }
+        ],
+        "finances": [
+            {
+                "id": 1,
+                "name": "AB_finance1",
+                "displayName": "Alpha Bravo Finance 1",
+                "role": "finance",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "finance/invoice-management",
+                "bankAccountNumber" :  "ACCT-SYNGEN01",
+                "bankAccountType" : "Current Acount"          
+            },
+            {
+                "id": 2,
+                "name": "AB_finance2",
+                "displayName": "Alpha Bravo Finance 2",
+                "role": "finance",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "finance/invoice-management",
+                "bankAccountNumber" :  "ACCT-SYNGEN02",
+                "bankAccountType" : "Current Acount"             
+            }
+        ],
+        "logistics": [
+            {
+                "id": 1,
+                "name": "Speed_FR",
+                "displayName": "Speed Logistic Services France",
+                "role": "logistic",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "logistic/create-consignment"              
+            },
+            {
+                "id": 2,
+                "name": "Speed_NO",
+                "displayName": "Speed Logistic Services Norway",
+                "role": "logistic",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "logistic/create-consignment"                 
+            }
+        ],
+        "vendors": [
+            {
+                "id": 1,
+                "name": "GlobalSupplier",
+                "displayName": "Global Supplier Inc.",
+                "role": "vendor",
+                "password": "123456",
+                "supplierName": "Global Supplier Inc.",
+                "supplierUniqueNo": "U001",
+                "supplierContactPerson": "Mr. Smith",
+                "supplierContactAdd": "403005 ILHAS-GOA India",
+                "supplierContactPhone": "9899898898",
+                "supplierContactEmail": "jyotienterprisesgoa@yahoo.in",
+                "bankAccountNumber" :  "ACCT-VEND01",
+                "bankAccountType" : "Current Acount",
+                "bankUniqueId" : "B001",
+                "homepage": "vendor/po-fulfillment"               
+            },
+            {
+                "id": 2,
+                "name": "AllInOneSupplier",
+                "displayName": "AllInOne Supplier",
+                "role": "vendor",
+                "password": "123456",
+                "supplierName": "AllInOne Supplier",
+                "supplierUniqueNo": "U002",
+                "supplierContactPerson": "John Doe",
+                "supplierContactAdd": "LBS ROAD, Mumbai India",
+                "supplierContactPhone": "7878787878",
+                "supplierContactEmail": "jkenterprises@gmail.com",
+                "bankAccountNumber" :  "ACCT-VEND02",
+                "bankAccountType" : "Current Acount",
+                "bankUniqueId" : "B002",
+                "homepage": "vendor/po-fulfillment"                   
+            }
+        ],
+        "banks": [
+            {
+                "id": 1,
+                "name": "Abc_Bank",
+                "displayName": "ABC Bank",
+                "role": "bank",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "bank/process-payment"                  
+            },
+            {
+                "id": 2,
+                "name": "Sbl_Bank",
+                "displayName": "SBL Bank",
+                "role": "bank",
+                "password": "123456",
+                "uniqueId": "A001",
+                "homepage": "bank/process-payment"                
+            }
+        ]
+    }
+}

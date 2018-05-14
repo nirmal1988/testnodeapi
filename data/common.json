@@ -1,0 +1,54 @@
+{
+"logisticsLocations": [
+                        {"id": 1, "name": "Location1"},
+                        {"id": 2, "name": "Location2"},
+                        {"id": 3, "name": "Location3"},
+                        {"id": 4, "name": "Location4"},
+                        {"id": 5, "name": "Location5"}
+                    ],
+  
+
+"purchaserContact": [
+    {"id": 1, "name": "John Doe"}
+],
+"materialGroup": [
+    {"id": 1, "name": "Material Group 1"},
+    {"id": 2, "name": "Material Group 2"}
+],
+"materialUnits": [
+    {"id": 1, "name": "Piece"},
+    {"id": 2, "name": "Unit"},
+    {"id": 3, "name": "KG"}
+],
+"currancy": [
+    {"id": 1, "name": "INR"},
+    {"id": 2, "name": "USD"},
+    {"id": 3, "name": "EUR"}
+],
+"glAccount": [
+    {"id": 1, "name": "12345678"},
+    {"id": 2, "name": "12555777"}
+],
+"costCenter": [
+    {"id": 1, "name": "FR000014578"},
+    {"id": 2, "name": "FR000015555"}
+],
+"sellerProductCodeList" :[
+    {"code":"P001", "description":"P001: Product 1"},
+    {"code":"P002", "description":"P002: Product 2"},
+    {"code":"P003", "description":"P003: Product 3"}
+],
+"logisticProviderList" :[
+    {"code":"LP001", "description":"LP001: Logistic Provider 1"},
+    {"code":"LP002", "description":"LP002: Logistic Provider 2"},
+    {"code":"LP003", "description":"LP003: Logistic Provider 3"}
+],
+"vehicleList":[
+    {"registrationNumber" : "BG-494-NA", "description" : "BG-494-NA Mini Truck"},
+    {"registrationNumber" : "AWD-815-XD", "description" : "AWD-815-XD Truck"}
+],
+"routeList":[
+    {"code" : "ROUTE1", "description" : "ROUTE1 ABC to XYZ"},
+    {"code" : "ROUTE2", "description" : "ROUTE2 XYZ to MNO"}
+]
+}
